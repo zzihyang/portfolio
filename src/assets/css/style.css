@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'IropkeBatang';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.ttf') format("truetype");
+    font-display: swap;
+}
+
+body {font-family: 'IropkeBatang';}
+
+#intro{
+    background-color: lime;
+    height: 100vh;
+}
+#skill{
+    background-color: skyblue;
+    height: 100vh;
+}
+
+.intro__inner .intro__text{position: relative;}
+.intro__inner .intro__text .text{
+    text-transform: uppercase; text-align: center;
+    position: relative; z-index: 100;
+    font-size: 3vw; font-weight: 700; line-height: 1;
+}
+.intro__inner .intro__text .img{
+    border-radius: 50%; overflow: hidden;
+    width: 30vh; height: 30vh;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro__inner .intro__text .img img{width: 100%;}
